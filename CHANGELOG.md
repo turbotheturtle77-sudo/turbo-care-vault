@@ -1,0 +1,16 @@
+# Changelog
+
+All notable changes to the **Turbo Care Vault** will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Added
+- Initial project structure for the **Turbo Care Vault**.
+- Maintenance Dashboard (Next.js + Zustand) for equipment tracking.
+- Verified nutrition table for aquatic turtles.
+- Community contribution guidelines and issue templates.
+- Reptile expert system prompt for channel consistency.
+
