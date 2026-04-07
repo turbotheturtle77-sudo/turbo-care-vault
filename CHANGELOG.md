@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial project structure for the **Turbo Care Vault**.
 - Maintenance Dashboard (Next.js + Zustand) for equipment tracking.
+- Water Parameter Logging (NH₃, NO₂⁻, NO₃⁻) with persistent storage.
 - Verified nutrition table for aquatic turtles.
 - Community contribution guidelines and issue templates.
 - Reptile expert system prompt for channel consistency.
