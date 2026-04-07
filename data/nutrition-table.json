@@ -1,0 +1,20 @@
+[
+  {
+    "item": "Dandelion Greens",
+    "frequency": "Daily",
+    "ca_p_ratio": "2.8:1",
+    "notes": "Excellent calcium source for Sliders and Cooters."
+  },
+  {
+    "item": "Romaine Lettuce",
+    "frequency": "Occasionally",
+    "ca_p_ratio": "0.8:1",
+    "notes": "Low nutrient density; use as a hydration supplement."
+  },
+  {
+    "item": "Carrots",
+    "frequency": "Weekly",
+    "ca_p_ratio": "0.6:1",
+    "notes": "Good source of Vitamin A; serve shredded or thinly sliced."
+  }
+]
