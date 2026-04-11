@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Water Parameter Logging (NH₃, NO₂⁻, NO₃⁻) with persistent storage.
 - Parameter Warning System with safety thresholds (NH₃/NO₂⁻ > 0.5ppm).
 - Visual enhancements using Lucide-React icons.
+- GitHub Pages CI/CD pipeline for automated dashboard deployment.
 - Verified nutrition table for aquatic turtles.
 - Community contribution guidelines and issue templates.
 - Reptile expert system prompt for channel consistency.

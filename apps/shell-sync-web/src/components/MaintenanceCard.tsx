@@ -3,14 +3,12 @@ import { useMaintenanceStore } from '../store/useMaintenanceStore';
 import { daysSince, getStatusColor } from '../lib/maintenanceUtils';
 
 const MaintenanceCard: React.FC = () => {
-  const { 
-    lastWaterChange, 
-    lastFilterClean, 
-    lastUVBReplacement, 
-    performWaterChange, 
-    cleanFilter, 
-    replaceUVB 
-  } = useMaintenanceStore();
+  const lastWaterChange = useMaintenanceStore((s) => s.lastWaterChange);
+  const lastFilterClean = useMaintenanceStore((s) => s.lastFilterClean);
+  const lastUVBReplacement = useMaintenanceStore((s) => s.lastUVBReplacement);
+  const performWaterChange = useMaintenanceStore((s) => s.performWaterChange);
+  const cleanFilter = useMaintenanceStore((s) => s.cleanFilter);
+  const replaceUVB = useMaintenanceStore((s) => s.replaceUVB);
 
   const tasks = [
     { label: 'Water Change', days: daysSince(lastWaterChange), limit: 7, action: performWaterChange },

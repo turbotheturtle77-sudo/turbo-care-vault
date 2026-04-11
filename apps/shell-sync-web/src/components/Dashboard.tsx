@@ -5,7 +5,7 @@ import WaterParameterList from './WaterParameterList';
 import { useTurtleStore } from '../store/useTurtleStore';
 
 const Dashboard: React.FC = () => {
-  const { name } = useTurtleStore();
+  const name = useTurtleStore((state) => state.name);
 
   return (
     <div className="max-w-6xl mx-auto p-6 space-y-8">
